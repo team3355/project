@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyapp-dev-142222-authRole",
+      "UnauthRoleArn": "arn:aws:iam::172956147862:role/amplify-amplifyapp-dev-142222-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::172956147862:role/amplify-amplifyapp-dev-142222-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-amplifyapp-dev-142222-deployment",
+      "UnauthRoleName": "amplify-amplifyapp-dev-142222-unauthRole",
+      "StackName": "amplify-amplifyapp-dev-142222",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:172956147862:stack/amplify-amplifyapp-dev-142222/6356a4e0-34e2-11ee-924a-02919bf61ce6",
+      "AmplifyAppId": "dpf4d5uc7qsc"
+    }
+  },
+  "auth": {
+    "amplifyapp2a8139af": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-142222-deployment/amplify-cfn-templates/auth/amplifyapp2a8139af-cloudformation-template.json",
+        "logicalId": "authamplifyapp2a8139af"
+      },
+      "lastPushTimeStamp": "2023-08-07T05:38:54.047Z",
+      "output": {
+        "UserPoolId": "ap-northeast-2_VHPji3Wdc",
+        "AppClientIDWeb": "2hie46jpcuqchi13u4bp1nphd0",
+        "AppClientID": "3vaab112s6cbkajvpq3lg47rc5",
+        "IdentityPoolId": "ap-northeast-2:0dff72db-1ab2-48ab-bd55-2371e90c8b12",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-northeast-2:172956147862:userpool/ap-northeast-2_VHPji3Wdc",
+        "IdentityPoolName": "amplifyapp2a8139af_identitypool_2a8139af__dev",
+        "UserPoolName": "amplifyapp2a8139af_userpool_2a8139af"
+      },
+      "lastPushDirHash": "YWFswg4R4xPRzbysE9eEzt43BQE="
+    }
+  }
+}
